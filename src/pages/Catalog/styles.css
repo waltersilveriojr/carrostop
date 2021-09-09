@@ -1,0 +1,40 @@
+.catalog-container {
+  font-size: 18px;
+}
+
+.catalog-card-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  min-height: 86px;
+  width: 300px;
+}
+
+@media (min-width: 576px) {
+  .catalog-container {
+    font-size: 30px;
+  }
+
+  .catalog-card-search {
+    width: 523px;
+  }
+}
+
+@media (min-width: 768px) {
+  .catalog-card-search {
+    width: 705px;
+  }
+}
+
+@media (min-width: 992px) {
+  .catalog-card-search {
+    width: 933px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catalog-card-search {
+    width: 1060px;
+  }
+}

@@ -1,0 +1,40 @@
+.btn {
+  border: unset;
+  width: auto;  
+  height: 40px;
+  text-align: center;
+  border-radius: 5px; 
+  background-color : #00285f;
+}
+.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  padding: 0px;
+  border: unset;
+}
+
+.btn-primary:hover {
+  color: 00285f;
+  background-color: #00285f;
+  border-color: #00285f;  
+}
+
+/* .btn-container button {
+  width: 174px;
+  height: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  border-radius: 5px;
+  background-color: #00285f;
+  border-color: #00285f;
+  color: #00285f;
+} */
+.btn-container h6 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
